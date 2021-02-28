@@ -5,7 +5,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.android.settings.dotextras.custom.views.FodPreview
+    <com.android.settings.lhosextras.custom.views.FodPreview
         android:id="@+id/fodIconPreview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

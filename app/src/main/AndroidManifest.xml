@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.android.settings.dotextras"
+    package="com.android.settings.lhosextras"
     android:sharedUserId="android.uid.system"
     tools:ignore="ProtectedPermissions, QueryAllPackagesPermission, ScopedStorage">
 
@@ -10,6 +10,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
@@ -37,12 +38,12 @@
 
         <service
             android:enabled="true"
-            android:name=".custom.utils.MaidService"
+            android:name="com.android.settings.lhosextras.custom.utils.MaidService"
             android:exported="false"
             android:stopWithTask="false" />
 
         <activity
-            android:name=".BaseActivity"
+            android:name="com.android.settings.lhosextras.BaseActivity"
             android:configChanges="orientation"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait">
@@ -52,7 +53,7 @@
         </activity>
 
         <activity
-            android:name=".custom.sections.wallpaper.provider.StandalonePreviewActivity"
+            android:name="com.android.settings.lhosextras.custom.sections.wallpaper.provider.StandalonePreviewActivity"
             android:configChanges="orientation"
             android:hardwareAccelerated="true"
             android:resizeableActivity="false"
@@ -72,12 +73,12 @@
                 android:resource="@xml/wallpaper_picker_preview" />
         </activity>
         <activity
-            android:name=".custom.sections.wallpaper.cropper.WallpaperCropperActivity"
+            android:name="com.android.settings.lhosextras.custom.sections.wallpaper.cropper.WallpaperCropperActivity"
             android:configChanges="orientation"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.android.dot.extra.MaintainersActivity"
+            android:name="com.android.lhos.extra.MaintainersActivity"
             android:configChanges="orientation"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait">

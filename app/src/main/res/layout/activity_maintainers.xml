@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.android.settings.dotextras.custom.views.DotMaterialPreference
+                <com.android.settings.lhosextras.custom.views.DotMaterialPreference
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"

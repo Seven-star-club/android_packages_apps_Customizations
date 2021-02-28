@@ -135,7 +135,7 @@
 
                 </LinearLayout>
 
-                <com.android.settings.dotextras.custom.views.ExpandableLayout
+                <com.android.settings.lhosextras.custom.views.ExpandableLayout
                     android:id="@+id/wp_choice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -151,7 +151,7 @@
                         app:cardBackgroundColor="@color/cardBackground"
                         app:cardCornerRadius="@dimen/default_dialog_radius">
 
-                        <com.android.systemui.dot.blur.BlurView
+                        <com.android.systemui.lhos.blur.BlurView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
@@ -276,11 +276,11 @@
                                 </LinearLayout>
                             </LinearLayout>
 
-                        </com.android.systemui.dot.blur.BlurView>
+                        </com.android.systemui.lhos.blur.BlurView>
 
                     </com.google.android.material.card.MaterialCardView>
 
-                </com.android.settings.dotextras.custom.views.ExpandableLayout>
+                </com.android.settings.lhosextras.custom.views.ExpandableLayout>
 
                 <ImageView
                     android:id="@+id/imageView12"

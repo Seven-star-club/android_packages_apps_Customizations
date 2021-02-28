@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.android.settings.dotextras.custom.views.DotMaterialPreference
+    <com.android.settings.lhosextras.custom.views.DotMaterialPreference
         android:id="@+id/pref_balloons"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,7 +15,7 @@
         android:tint="@color/deep_orange_600"
         android:title="@string/enable_balloons" />
 
-    <com.android.settings.dotextras.custom.views.DotMaterialPreference
+    <com.android.settings.lhosextras.custom.views.DotMaterialPreference
         android:id="@+id/pref_rgb_light"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,7 +24,7 @@
         android:summary="@string/rgb_battery_light_summary"
         android:title="@string/rgb_battery_light" />
 
-    <com.android.settings.dotextras.custom.views.DotMaterialPreference
+    <com.android.settings.lhosextras.custom.views.DotMaterialPreference
         android:id="@+id/pref_stats"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,9 +36,9 @@
         android:title="@string/enable_dot_stats"
         app:cardStyle="true" >
 
-    </com.android.settings.dotextras.custom.views.DotMaterialPreference>
+    </com.android.settings.lhosextras.custom.views.DotMaterialPreference>
 
-    <com.android.settings.dotextras.custom.views.DotMaterialPreference
+    <com.android.settings.lhosextras.custom.views.DotMaterialPreference
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:summary="@string/check_stats"

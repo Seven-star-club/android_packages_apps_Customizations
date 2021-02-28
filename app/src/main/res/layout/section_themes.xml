@@ -5,20 +5,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <com.android.settings.dotextras.custom.views.AccentHeader
+    <com.android.settings.lhosextras.custom.views.AccentHeader
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </com.android.settings.dotextras.custom.views.AccentHeader>
+    </com.android.settings.lhosextras.custom.views.AccentHeader>
 
-    <com.android.settings.dotextras.custom.views.AccentColorController
+    <com.android.settings.lhosextras.custom.views.AccentColorController
         android:id="@+id/accentController"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </com.android.settings.dotextras.custom.views.AccentColorController>
+    </com.android.settings.lhosextras.custom.views.AccentColorController>
 
-    <com.android.settings.dotextras.custom.views.TwoToneAccentView
+    <com.android.settings.lhosextras.custom.views.TwoToneAccentView
         android:id="@+id/twoTone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -71,21 +71,21 @@
 
     </com.google.android.material.card.MaterialCardView>
 
-    <com.android.settings.dotextras.custom.views.FontPackController
+    <com.android.settings.lhosextras.custom.views.FontPackController
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </com.android.settings.dotextras.custom.views.FontPackController>
+    </com.android.settings.lhosextras.custom.views.FontPackController>
 
-    <com.android.settings.dotextras.custom.views.IconPackController
+    <com.android.settings.lhosextras.custom.views.IconPackController
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </com.android.settings.dotextras.custom.views.IconPackController>
+    </com.android.settings.lhosextras.custom.views.IconPackController>
 
-    <com.android.settings.dotextras.custom.views.ShapeController
+    <com.android.settings.lhosextras.custom.views.ShapeController
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </com.android.settings.dotextras.custom.views.ShapeController>
+    </com.android.settings.lhosextras.custom.views.ShapeController>
 </LinearLayout>

@@ -43,14 +43,14 @@
         app:cardElevation="0dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <com.android.settings.dotextras.custom.sections.wallpaper.cropper.CropImageView
+        <com.android.settings.lhosextras.custom.sections.wallpaper.cropper.CropImageView
             android:id="@+id/cropImageView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             app:cropShowProgressBar="true">
 
-        </com.android.settings.dotextras.custom.sections.wallpaper.cropper.CropImageView>
+        </com.android.settings.lhosextras.custom.sections.wallpaper.cropper.CropImageView>
 
     </com.google.android.material.card.MaterialCardView>
 

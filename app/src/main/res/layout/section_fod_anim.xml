@@ -5,7 +5,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.android.settings.dotextras.custom.views.FodPreview
+    <com.android.settings.lhosextras.custom.views.FodPreview
         android:id="@+id/fodAnimPreview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -36,7 +36,7 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <com.android.settings.dotextras.custom.views.ExpandableLayout
+    <com.android.settings.lhosextras.custom.views.ExpandableLayout
         android:id="@+id/fodAnimLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,6 +49,6 @@
             android:layout_marginStart="@dimen/recyclerSpacerSmall"
             android:layout_marginEnd="@dimen/recyclerSpacerSmall"/>
 
-    </com.android.settings.dotextras.custom.views.ExpandableLayout>
+    </com.android.settings.lhosextras.custom.views.ExpandableLayout>
 
 </LinearLayout>

@@ -45,15 +45,15 @@
 
     </LinearLayout>
 
-    <com.android.settings.dotextras.custom.views.ContextSectionLayout
+    <com.android.settings.lhosextras.custom.views.ContextSectionLayout
         android:id="@+id/aodlockContextSection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:sectionTitle="@string/options">
 
-    </com.android.settings.dotextras.custom.views.ContextSectionLayout>
+    </com.android.settings.lhosextras.custom.views.ContextSectionLayout>
 
-    <com.android.settings.dotextras.custom.views.NotSupportedView
+    <com.android.settings.lhosextras.custom.views.NotSupportedView
         android:id="@+id/aodNS"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

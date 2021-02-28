@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.android.settings.dotextras.custom.views.ContextSectionLayout
+    <com.android.settings.lhosextras.custom.views.ContextSectionLayout
         android:id="@+id/sectionGestures"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="12dp" />
 
-    <com.android.settings.dotextras.custom.views.ContextSectionLayout
+    <com.android.settings.lhosextras.custom.views.ContextSectionLayout
         android:id="@+id/sectionSecurity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="12dp" />
 
-    <com.android.settings.dotextras.custom.views.ContextSectionLayout
+    <com.android.settings.lhosextras.custom.views.ContextSectionLayout
         android:id="@+id/sectionMisc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
