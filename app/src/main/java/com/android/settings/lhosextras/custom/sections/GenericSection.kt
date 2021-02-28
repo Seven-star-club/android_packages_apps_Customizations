@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections
+package com.android.settings.lhosextras.custom.sections
 
 import android.content.Context
 import android.content.om.IOverlayManager
@@ -24,19 +24,23 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.android.settings.dotextras.BaseActivity
-import com.android.settings.dotextras.R
-import com.android.settings.dotextras.custom.SectionInterface
-import com.android.settings.dotextras.custom.sections.cards.*
-import com.android.settings.dotextras.custom.sections.cards.ContextCardsAdapter.Type.PAGER
-import com.android.settings.dotextras.custom.sections.cards.ContextCardsAdapter.Type.RGB
-import com.android.settings.dotextras.custom.sections.cards.ContextCardsAdapter.Type.SWIPE
-import com.android.settings.dotextras.custom.sections.cards.ContextCardsAdapter.Type.SWITCH
-import com.android.settings.dotextras.custom.utils.BalloonPump
-import com.android.settings.dotextras.custom.utils.GridSpacingItemDecoration
-import com.android.settings.dotextras.custom.utils.SettingsConstants
-import com.android.settings.dotextras.custom.views.ContextSectionLayout
-import com.android.settings.dotextras.system.FeatureManager
+import com.android.settings.lhosextras.custom.sections.cards.ContextCards
+import com.android.settings.lhosextras.custom.sections.cards.ContextCardsListener
+import com.android.settings.lhosextras.custom.sections.cards.OnColorChangedListener
+import com.android.settings.lhosextras.custom.sections.cards.OnSlideChangedListener
+import com.android.settings.lhosextras.BaseActivity
+import com.android.settings.lhosextras.R
+import com.android.settings.lhosextras.custom.SectionInterface
+import com.android.settings.lhosextras.custom.sections.cards.*
+import com.android.settings.lhosextras.custom.sections.cards.ContextCardsAdapter.Type.PAGER
+import com.android.settings.lhosextras.custom.sections.cards.ContextCardsAdapter.Type.RGB
+import com.android.settings.lhosextras.custom.sections.cards.ContextCardsAdapter.Type.SWIPE
+import com.android.settings.lhosextras.custom.sections.cards.ContextCardsAdapter.Type.SWITCH
+import com.android.settings.lhosextras.custom.utils.BalloonPump
+import com.android.settings.lhosextras.custom.utils.GridSpacingItemDecoration
+import com.android.settings.lhosextras.custom.utils.SettingsConstants
+import com.android.settings.lhosextras.custom.views.ContextSectionLayout
+import com.android.settings.lhosextras.system.FeatureManager
 import kotlin.properties.Delegates
 
 open class GenericSection : Fragment(), SectionInterface {

@@ -25,7 +25,7 @@ import com.android.settings.lhosextras.BaseActivity
 import com.android.settings.lhosextras.R
 import com.android.settings.lhosextras.custom.stats.Constants
 import com.android.settings.lhosextras.custom.utils.SettingsConstants
-import com.android.settings.lhosextras.custom.views.DotMaterialPreference
+import com.android.settings.lhosextras.custom.views.LhosMaterialPreference
 import com.google.android.material.snackbar.Snackbar
 
 class SettingsSection : GenericSection() {
@@ -42,7 +42,7 @@ class SettingsSection : GenericSection() {
         super.onViewCreated(view, savedInstanceState)
         (requireActivity() as BaseActivity).setTitle(getString(R.string.section_settings))
         val sharedprefStats = requireActivity().getSharedPreferences("dotStatsPrefs", Context.MODE_PRIVATE)
-        val prefStats: DotMaterialPreference = view.findViewById(R.id.pref_stats)
+        val prefStats: LhosMaterialPreference = view.findViewById(R.id.pref_stats)
         prefStats.switchView!!.isChecked = sharedprefStats.getBoolean(Constants.ALLOW_STATS, true)
         prefStats.setOnClickPreference {
             prefStats.switchView!!.isChecked = !prefStats.switchView!!.isChecked
@@ -57,7 +57,7 @@ class SettingsSection : GenericSection() {
         buildSetting(pref, view.findViewById(R.id.pref_balloons), SettingsConstants.SHOW_BALLOONS, true)
     }
 
-    private fun buildSetting(preferences: SharedPreferences, view: DotMaterialPreference, setting: String) {
+    private fun buildSetting(preferences: SharedPreferences, view: LhosMaterialPreference, setting: String) {
         view.switchView!!.isChecked = preferences.getBoolean(setting, false)
         view.setOnClickPreference {
             view.switchView!!.isChecked = !view.switchView!!.isChecked
@@ -67,7 +67,7 @@ class SettingsSection : GenericSection() {
         }
     }
 
-    private fun buildSetting(preferences: SharedPreferences, view: DotMaterialPreference, setting: String, default: Boolean) {
+    private fun buildSetting(preferences: SharedPreferences, view: LhosMaterialPreference, setting: String, default: Boolean) {
         view.switchView!!.isChecked = preferences.getBoolean(setting, default)
         view.setOnClickPreference {
             view.switchView!!.isChecked = !view.switchView!!.isChecked

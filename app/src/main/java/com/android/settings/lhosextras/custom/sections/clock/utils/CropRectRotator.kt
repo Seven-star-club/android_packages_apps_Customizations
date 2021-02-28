@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections.clock.utils
+package com.android.settings.lhosextras.custom.sections.clock.utils
 
 import android.graphics.Point
 import android.graphics.Rect

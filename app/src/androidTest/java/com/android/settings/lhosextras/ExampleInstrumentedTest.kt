@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.android.settings.dotextras", appContext.packageName)
+        assertEquals("com.android.settings.lhosextras", appContext.packageName)
     }
 }

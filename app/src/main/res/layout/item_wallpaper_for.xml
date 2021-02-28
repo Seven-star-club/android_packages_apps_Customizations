@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="bottom">
 
-    <com.android.settings.dotextras.custom.views.ExpandableLayout
+    <com.android.settings.lhosextras.custom.views.ExpandableLayout
         android:id="@+id/wp_choice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -141,5 +141,5 @@
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
-    </com.android.settings.dotextras.custom.views.ExpandableLayout>
+    </com.android.settings.lhosextras.custom.views.ExpandableLayout>
 </FrameLayout>

@@ -9,10 +9,10 @@
 //
 // - Sun Tsu,
 // "The Art of War"
-package com.android.settings.dotextras.custom.sections.wallpaper.cropper.utils
+package com.android.settings.lhosextras.custom.sections.wallpaper.cropper.utils
 
 import android.graphics.RectF
-import com.android.settings.dotextras.custom.sections.wallpaper.cropper.CropImageView.CropShape
+import com.android.settings.lhosextras.custom.sections.wallpaper.cropper.CropImageView.CropShape
 
 /**
  * Handler from crop window stuff, moving and knowing possition.

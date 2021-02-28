@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.views
+package com.android.settings.lhosextras.custom.views
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -27,12 +27,12 @@ import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.content.ContextCompat
-import com.android.settings.dotextras.R
-import com.android.settings.dotextras.custom.utils.BalloonPump
-import com.android.settings.dotextras.custom.utils.ColorSheetUtils
-import com.android.settings.dotextras.custom.utils.ResourceHelper
-import com.android.settings.dotextras.custom.utils.SettingsConstants
-import com.android.settings.dotextras.system.FeatureManager
+import com.android.settings.lhosextras.R
+import com.android.settings.lhosextras.custom.utils.BalloonPump
+import com.android.settings.lhosextras.custom.utils.ColorSheetUtils
+import com.android.settings.lhosextras.custom.utils.ResourceHelper
+import com.android.settings.lhosextras.custom.utils.SettingsConstants
+import com.android.settings.lhosextras.system.FeatureManager
 import com.google.android.material.button.MaterialButton
 
 typealias onTwoTonePressed = ((shade: TwoToneAccentView.Shade) -> Unit)?

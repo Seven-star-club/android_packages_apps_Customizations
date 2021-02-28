@@ -20,6 +20,7 @@ import android.util.Log
 import android.view.MotionEvent
 import android.view.ScaleGestureDetector
 import android.view.View
+import com.android.settings.lhosextras.custom.sections.wallpaper.cropper.utils.CropWindowHandler
 import com.android.settings.lhosextras.custom.sections.wallpaper.cropper.CropImageView.CropShape
 import com.android.settings.lhosextras.custom.sections.wallpaper.cropper.CropImageView.Guidelines
 import java.util.*

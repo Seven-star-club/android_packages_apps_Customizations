@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.views
+package com.android.settings.lhosextras.custom.views
 
 import android.content.Context
 import android.graphics.drawable.AnimationDrawable
@@ -22,7 +22,7 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.RelativeLayout
 import androidx.appcompat.widget.AppCompatImageView
-import com.android.settings.dotextras.R
+import com.android.settings.lhosextras.R
 
 class FodPreview(context: Context?, attributesSet: AttributeSet) : RelativeLayout(
     context,

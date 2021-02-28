@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections.themes
+package com.android.settings.lhosextras.custom.sections.themes
 
 import android.view.LayoutInflater
 import android.view.View
@@ -23,9 +23,9 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.android.settings.dotextras.R
-import com.android.settings.dotextras.custom.utils.ResourceHelper
-import com.android.settings.dotextras.system.OverlayController
+import com.android.settings.lhosextras.R
+import com.android.settings.lhosextras.custom.utils.ResourceHelper
+import com.android.settings.lhosextras.system.OverlayController
 
 class IconPackAdapter(
     private val overlayController: OverlayController,

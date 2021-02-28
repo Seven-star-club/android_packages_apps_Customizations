@@ -1,10 +1,10 @@
-package com.android.settings.dotextras.custom.utils
+package com.android.settings.lhosextras.custom.utils
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Handler
 import android.view.View
-import com.android.settings.dotextras.R
+import com.android.settings.lhosextras.R
 import com.skydoves.balloon.Balloon
 import com.skydoves.balloon.BalloonAnimation
 import com.skydoves.balloon.BalloonSizeSpec

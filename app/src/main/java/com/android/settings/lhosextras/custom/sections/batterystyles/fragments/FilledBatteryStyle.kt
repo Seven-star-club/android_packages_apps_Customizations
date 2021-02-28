@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections.batterystyles.fragments
+package com.android.settings.lhosextras.custom.sections.batterystyles.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -21,8 +21,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
-import com.android.settings.dotextras.R
-import com.android.settings.dotextras.custom.sections.batterystyles.FullCircleBatteryDrawable
+import com.android.settings.lhosextras.R
+import com.android.settings.lhosextras.custom.sections.batterystyles.FullCircleBatteryDrawable
 
 class FilledBatteryStyle : Fragment() {
 

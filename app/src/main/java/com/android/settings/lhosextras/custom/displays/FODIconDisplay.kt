@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.displays
+package com.android.settings.lhosextras.custom.displays
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.android.settings.dotextras.R
+import com.android.settings.lhosextras.R
 
 class FODIconDisplay : Fragment() {
 

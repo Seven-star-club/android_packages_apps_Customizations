@@ -1,4 +1,4 @@
-package com.android.settings.dotextras.custom.views
+package com.android.settings.lhosextras.custom.views
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -13,11 +13,11 @@ import android.widget.TextView
 import androidx.browser.customtabs.CustomTabsIntent
 import com.android.internal.R.anim.slide_in_left
 import com.android.internal.R.anim.slide_out_right
-import com.android.settings.dotextras.R
+import com.android.settings.lhosextras.R
 import com.google.android.material.switchmaterial.SwitchMaterial
 
 
-class DotMaterialPreference(context: Context?, attrs: AttributeSet?) : FrameLayout(context, attrs) {
+class LhosMaterialPreference(context: Context?, attrs: AttributeSet?) : FrameLayout(context!!, attrs) {
 
     var titleView: TextView? = null
     var summaryView: TextView? = null
@@ -78,10 +78,10 @@ class DotMaterialPreference(context: Context?, attrs: AttributeSet?) : FrameLayo
             if (a.getString(R.styleable.DotMaterialPreference_url) != null) {
                 val builder = CustomTabsIntent.Builder()
                 val customTabsIntent = builder.build()
-                builder.setExitAnimations(mContext, slide_in_left, slide_out_right)
+                builder.setExitAnimations(context!!, slide_in_left, slide_out_right)
                 url = a.getString(R.styleable.DotMaterialPreference_url)
                 setOnClickPreference {
-                    customTabsIntent.launchUrl(mContext, Uri.parse(url))
+                    customTabsIntent.launchUrl(context!!, Uri.parse(url))
                 }
             }
             a.recycle()

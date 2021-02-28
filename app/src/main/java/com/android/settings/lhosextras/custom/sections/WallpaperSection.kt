@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections
+package com.android.settings.lhosextras.custom.sections
 
 import android.app.WallpaperManager
 import android.content.ClipboardManager
@@ -35,20 +35,20 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
-import com.android.settings.dotextras.BaseActivity
-import com.android.settings.dotextras.R
-import com.android.settings.dotextras.custom.sections.wallpaper.LiveWallpaperAdapter
-import com.android.settings.dotextras.custom.sections.wallpaper.WallpaperBase
-import com.android.settings.dotextras.custom.sections.wallpaper.WallpaperPreviewAdapter
-import com.android.settings.dotextras.custom.sections.wallpaper.filters.WallpaperFilter
-import com.android.settings.dotextras.custom.sections.wallpaper.filters.WallpaperFilterAdapter
-import com.android.settings.dotextras.custom.sections.wallpaper.fragments.CurrentWallpaperAdapter
-import com.android.settings.dotextras.custom.sections.wallpaper.onDismiss
-import com.android.settings.dotextras.custom.sections.wallpaper.provider.StandalonePreviewActivity
-import com.android.settings.dotextras.custom.utils.DepthPageTransformer
-import com.android.settings.dotextras.custom.utils.ItemRecyclerSpacer
-import com.android.settings.dotextras.custom.utils.ResourceHelper
-import com.android.settings.dotextras.custom.utils.internetAvailable
+import com.android.settings.lhosextras.BaseActivity
+import com.android.settings.lhosextras.R
+import com.android.settings.lhosextras.custom.sections.wallpaper.LiveWallpaperAdapter
+import com.android.settings.lhosextras.custom.sections.wallpaper.WallpaperBase
+import com.android.settings.lhosextras.custom.sections.wallpaper.WallpaperPreviewAdapter
+import com.android.settings.lhosextras.custom.sections.wallpaper.filters.WallpaperFilter
+import com.android.settings.lhosextras.custom.sections.wallpaper.filters.WallpaperFilterAdapter
+import com.android.settings.lhosextras.custom.sections.wallpaper.fragments.CurrentWallpaperAdapter
+import com.android.settings.lhosextras.custom.sections.wallpaper.onDismiss
+import com.android.settings.lhosextras.custom.sections.wallpaper.provider.StandalonePreviewActivity
+import com.android.settings.lhosextras.custom.utils.DepthPageTransformer
+import com.android.settings.lhosextras.custom.utils.ItemRecyclerSpacer
+import com.android.settings.lhosextras.custom.utils.ResourceHelper
+import com.android.settings.lhosextras.custom.utils.internetAvailable
 import nl.komponents.kovenant.task
 import nl.komponents.kovenant.ui.successUi
 import org.json.JSONObject

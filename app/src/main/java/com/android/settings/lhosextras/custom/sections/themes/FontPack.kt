@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections.themes
+package com.android.settings.lhosextras.custom.sections.themes
 
 import android.graphics.Typeface
 

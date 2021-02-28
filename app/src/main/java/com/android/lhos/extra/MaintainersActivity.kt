@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.android.dot.extra.adapters.MaintainersAdapter
-import com.android.dot.extra.adapters.models.Maintainers
+import com.android.lhos.extra.adapters.MaintainersAdapter
+import com.android.lhos.extra.adapters.models.Maintainers
 import com.android.settings.lhosextras.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import okhttp3.*

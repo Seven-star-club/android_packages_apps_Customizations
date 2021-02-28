@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections.batterystyles
+package com.android.settings.lhosextras.custom.sections.batterystyles
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -24,7 +24,7 @@ import android.content.Context
 import android.graphics.*
 import android.graphics.drawable.Drawable
 import android.util.TypedValue
-import com.android.settings.dotextras.R
+import com.android.settings.lhosextras.R
 import kotlin.math.min
 
 open class FullCircleBatteryDrawable(private val context: Context, frameColor: Int) : Drawable() {

@@ -13,6 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections
+package com.android.settings.lhosextras.custom.sections
 
 class IconsSection : GenericSection()

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom
+package com.android.settings.lhosextras.custom
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -26,8 +26,9 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.RecyclerView
-import com.android.settings.dotextras.BaseActivity
-import com.android.settings.dotextras.R
+import com.android.settings.lhosextras.BaseActivity
+import com.android.settings.lhosextras.R
+import com.android.settings.lhosextras.custom.DashboardItem
 import com.google.android.material.card.MaterialCardView
 import java.util.*
 import kotlin.math.roundToInt

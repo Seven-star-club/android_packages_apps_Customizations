@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.android.settings.dotextras"
+        applicationId "com.android.settings.lhosextras"
         minSdkVersion 30
         targetSdkVersion 30
         versionCode 1

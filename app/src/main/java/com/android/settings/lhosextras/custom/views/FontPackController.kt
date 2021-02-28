@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.views
+package com.android.settings.lhosextras.custom.views
 
 import android.content.Context
 import android.content.om.IOverlayManager
@@ -24,10 +24,10 @@ import android.widget.LinearLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearSmoothScroller
 import androidx.recyclerview.widget.RecyclerView
-import com.android.settings.dotextras.R
-import com.android.settings.dotextras.custom.sections.themes.FontPackAdapter
-import com.android.settings.dotextras.custom.utils.ItemRecyclerSpacer
-import com.android.settings.dotextras.system.OverlayController
+import com.android.settings.lhosextras.R
+import com.android.settings.lhosextras.custom.sections.themes.FontPackAdapter
+import com.android.settings.lhosextras.custom.utils.ItemRecyclerSpacer
+import com.android.settings.lhosextras.system.OverlayController
 
 class FontPackController(context: Context?, attrs: AttributeSet?) : LinearLayout(context, attrs) {
 

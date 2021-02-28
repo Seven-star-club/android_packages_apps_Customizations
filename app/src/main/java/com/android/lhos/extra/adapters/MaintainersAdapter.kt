@@ -12,11 +12,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.android.dot.extra.adapters.models.Maintainers
-import com.android.dot.extra.parsers.HttpHandler
-import com.android.dot.extra.parsers.ImageSaver
+import com.android.lhos.extra.adapters.models.Maintainers
+import com.android.lhos.extra.parsers.HttpHandler
+import com.android.lhos.extra.parsers.ImageSaver
 import com.android.settings.lhosextras.R
-import com.android.settings.lhosextras.custom.views.DotMaterialPreference
+import com.android.settings.lhosextras.custom.views.LhosMaterialPreference
 import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
@@ -53,18 +53,18 @@ class MaintainersAdapter(private val items: ArrayList<Maintainers>) : RecyclerVi
         return items.size
     }
 
-    private fun getGithubIcon(usernameResId: String, preference: DotMaterialPreference) {
+    private fun getGithubIcon(usernameResId: String, preference: LhosMaterialPreference) {
         parseGitIcon().execute(usernameResId, preference)
     }
 
     @SuppressLint("StaticFieldLeak")
-    private inner class parseGitIcon : AsyncTask<Any, DotMaterialPreference?, String?>() {
+    private inner class parseGitIcon : AsyncTask<Any, LhosMaterialPreference?, String?>() {
         private var id: String? = null
         private var image: Drawable? = null
-        private lateinit var preference: DotMaterialPreference
+        private lateinit var preference: LhosMaterialPreference
 
         override fun doInBackground(vararg arg0: Any): String? {
-            preference = arg0[1] as DotMaterialPreference
+            preference = arg0[1] as LhosMaterialPreference
             val saved = ImageSaver()
                 .setDirectoryName("${preference.context.cacheDir}/ignore/")
                 .setFileName(arg0[0].toString() + ".jpeg")
@@ -127,7 +127,7 @@ class MaintainersAdapter(private val items: ArrayList<Maintainers>) : RecyclerVi
                 drawable.intrinsicHeight,
                 Bitmap.Config.ARGB_8888)
         }
-        val canvasF = Canvas(bitmap)
+        val canvasF = Canvas(bitmap!!)
         drawable.setBounds(0, 0, canvasF.width, canvasF.height)
         drawable.draw(canvasF)
         srcBitmap = bitmap
@@ -158,6 +158,6 @@ class MaintainersAdapter(private val items: ArrayList<Maintainers>) : RecyclerVi
     }
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val pref: DotMaterialPreference = view.findViewById(R.id.maintainerPref)
+        val pref: LhosMaterialPreference = view.findViewById(R.id.maintainerPref)
     }
 }

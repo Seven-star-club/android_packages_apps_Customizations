@@ -23,12 +23,12 @@
         android:layout_marginStart="@dimen/recyclerSpacerSmall"
         android:layout_marginEnd="@dimen/recyclerSpacerSmall" />
 
-    <com.android.settings.dotextras.custom.views.ContextSectionLayout
+    <com.android.settings.lhosextras.custom.views.ContextSectionLayout
         android:id="@+id/fodOptSection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:sectionTitle="@string/options">
 
-    </com.android.settings.dotextras.custom.views.ContextSectionLayout>
+    </com.android.settings.lhosextras.custom.views.ContextSectionLayout>
 
 </LinearLayout>

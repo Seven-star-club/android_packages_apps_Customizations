@@ -59,7 +59,7 @@ class LauncherGridOptionsProvider(context: Context, authorityMetadataKey: String
             resolver.query(mPreviewUtils.getUri(LIST_OPTIONS), null, null, null,
                 null).use { c ->
                 mOptions = ArrayList()
-                while (c.moveToNext()) {
+                while (c!!.moveToNext()) {
                     val name = c.getString(c.getColumnIndex(COL_NAME))
                     val rows = c.getInt(c.getColumnIndex(COL_ROWS))
                     val cols = c.getInt(c.getColumnIndex(COL_COLS))
@@ -86,7 +86,7 @@ class LauncherGridOptionsProvider(context: Context, authorityMetadataKey: String
      * @param bundle    surface view request bundle generated from
      * [com.android.wallpaper.util.SurfaceViewUtils.createSurfaceViewRequest].
      */
-    fun renderPreview(name: String?, bundle: Bundle): Bundle {
+    fun renderPreview(name: String?, bundle: Bundle): Bundle? {
         bundle.putString("name", name)
         return mPreviewUtils.renderPreview(bundle)
     }

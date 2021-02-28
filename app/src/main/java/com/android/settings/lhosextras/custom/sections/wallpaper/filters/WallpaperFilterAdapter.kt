@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections.wallpaper.filters
+package com.android.settings.lhosextras.custom.sections.wallpaper.filters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.android.settings.dotextras.R
+import com.android.settings.lhosextras.R
 import com.google.android.material.chip.Chip
 
 class WallpaperFilterAdapter(private val items: ArrayList<WallpaperFilter>) :

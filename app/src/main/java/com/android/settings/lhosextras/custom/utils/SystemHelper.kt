@@ -31,15 +31,15 @@ fun Context.internetAvailable(): Boolean {
 fun Context.getFileName(uri: Uri): String {
     var result = ""
     if (uri.scheme == "content") {
-        val cursor: Cursor = contentResolver.query(uri, null, null, null, null)
+        val cursor: Cursor? = contentResolver.query(uri, null, null, null, null)
         cursor.use { cursor ->
-            if (cursor.moveToFirst()) {
-                result = cursor.getString(cursor.getColumnIndex(OpenableColumns.DISPLAY_NAME))
+            if (cursor!!.moveToFirst()) {
+                result = cursor!!.getString(cursor!!.getColumnIndex(OpenableColumns.DISPLAY_NAME))
             }
         }
     }
     if (result == "") {
-        result = uri.path
+        result = uri.path!!
         val cut = result.lastIndexOf('/')
         if (cut != -1) {
             result = result.substring(cut + 1)

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.displays
+package com.android.settings.lhosextras.custom.displays
 
 import android.content.Intent
 import android.content.pm.ResolveInfo
@@ -25,8 +25,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import com.android.settings.dotextras.R
-import com.android.settings.dotextras.custom.displays.models.AppInfo
+import com.android.settings.lhosextras.R
+import com.android.settings.lhosextras.custom.displays.models.AppInfo
 
 class IconsDisplay : Fragment() {
 

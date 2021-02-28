@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.utils
+package com.android.settings.lhosextras.custom.utils
 
 import android.content.ContentResolver
 import android.content.Context
@@ -30,7 +30,7 @@ class PreviewUtils(private val mContext: Context, authorityMetadataKey: String?)
     private val mProviderInfo: ProviderInfo?
 
     /** Render preview under the current grid option.  */
-    fun renderPreview(bundle: Bundle?): Bundle {
+    fun renderPreview(bundle: Bundle?): Bundle? {
         return mContext.contentResolver.call(getUri(PREVIEW), METHOD_GET_PREVIEW, null,
             bundle)
     }
@@ -67,7 +67,7 @@ class PreviewUtils(private val mContext: Context, authorityMetadataKey: String?)
         // TODO: check permissions if needed
         mProviderInfo =
             if (TextUtils.isEmpty(mProviderAuthority)) null else mContext.packageManager.resolveContentProvider(
-                mProviderAuthority,
+                mProviderAuthority!!,
                 0)
     }
 }

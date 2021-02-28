@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections.cards
+package com.android.settings.lhosextras.custom.sections.cards
 
 import android.annotation.ColorInt
 import android.widget.TextView
 import androidx.fragment.app.FragmentManager
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.android.settings.dotextras.custom.sections.cards.ContextCardsAdapter.Type
-import com.android.settings.dotextras.custom.utils.ColorSheetUtils
+import com.android.settings.lhosextras.custom.sections.cards.ContextCardsAdapter.Type
+import com.android.settings.lhosextras.custom.utils.ColorSheetUtils
 
 typealias ContextCardsListener = ((value: Int) -> Unit)?
 typealias OnColorChangedListener = ((colorInt: Int) -> Unit)?

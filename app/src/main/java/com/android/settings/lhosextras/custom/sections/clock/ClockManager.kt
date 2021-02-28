@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections.clock
+package com.android.settings.lhosextras.custom.sections.clock
 
 import android.content.ContentResolver
 import android.text.TextUtils
 import android.util.Log
-import com.android.settings.dotextras.system.FeatureManager
+import com.android.settings.lhosextras.system.FeatureManager
 import org.json.JSONException
 import org.json.JSONObject
 

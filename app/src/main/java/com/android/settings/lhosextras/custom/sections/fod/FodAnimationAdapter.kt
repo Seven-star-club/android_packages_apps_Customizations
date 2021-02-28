@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections.fod
+package com.android.settings.lhosextras.custom.sections.fod
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -29,9 +29,9 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.android.settings.dotextras.R
-import com.android.settings.dotextras.custom.utils.ResourceHelper
-import com.android.settings.dotextras.system.FeatureManager
+import com.android.settings.lhosextras.R
+import com.android.settings.lhosextras.custom.utils.ResourceHelper
+import com.android.settings.lhosextras.system.FeatureManager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.google.android.material.card.MaterialCardView

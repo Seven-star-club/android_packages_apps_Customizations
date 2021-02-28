@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.dotextras.custom.sections.wallpaper.fragments
+package com.android.settings.lhosextras.custom.sections.wallpaper.fragments
 
 import android.annotation.SuppressLint
 import android.app.WallpaperManager
@@ -25,8 +25,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.RelativeLayout
 import androidx.fragment.app.Fragment
-import com.android.settings.dotextras.R
-import com.android.settings.dotextras.custom.sections.wallpaper.WallpaperBase
+import com.android.settings.lhosextras.R
+import com.android.settings.lhosextras.custom.sections.wallpaper.WallpaperBase
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 

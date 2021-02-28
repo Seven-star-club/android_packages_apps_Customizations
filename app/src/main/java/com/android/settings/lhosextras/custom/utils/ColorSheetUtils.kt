@@ -17,7 +17,7 @@
  *
  */
 
-package com.android.settings.dotextras.custom.utils
+package com.android.settings.lhosextras.custom.utils
 
 import androidx.annotation.ColorInt
 

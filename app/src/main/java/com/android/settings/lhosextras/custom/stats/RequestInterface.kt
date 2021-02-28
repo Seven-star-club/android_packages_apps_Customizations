@@ -1,4 +1,4 @@
-package com.android.settings.dotextras.custom.stats
+package com.android.settings.lhosextras.custom.stats
 
 import io.reactivex.Observable
 import retrofit2.http.Body

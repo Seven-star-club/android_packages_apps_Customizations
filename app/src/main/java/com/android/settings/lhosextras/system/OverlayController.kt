@@ -38,6 +38,7 @@ import android.widget.Toast
 import androidx.appcompat.view.ContextThemeWrapper
 import androidx.core.content.ContextCompat
 import androidx.preference.ListPreference
+import com.android.settings.lhosextras.custom.sections.themes.FontPack
 import com.android.settings.lhosextras.R
 import com.android.settings.lhosextras.custom.sections.themes.*
 import com.android.settings.lhosextras.custom.utils.ResourceHelper

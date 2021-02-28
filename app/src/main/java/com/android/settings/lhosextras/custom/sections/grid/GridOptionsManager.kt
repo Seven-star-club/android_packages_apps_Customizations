@@ -38,7 +38,7 @@ class GridOptionsManager(private val mProvider: LauncherGridOptionsProvider) {
     }
 
     /** Call through content provider API to render preview  */
-    fun renderPreview(bundle: Bundle, gridName: String?): Bundle {
+    fun renderPreview(bundle: Bundle, gridName: String?): Bundle? {
         return mProvider.renderPreview(gridName, bundle)
     }
 
